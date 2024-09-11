@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pipeline-gen-ia"
+version = "0.1.0"
+description = ""
+authors = ["mielesantos <mielesnts@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.38.0"
+pydantic = {extras = ["email"], version = "^2.9.1"}
+psycopg2 = "^2.9.9"
+sqlalchemy = "^2.0.34"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
